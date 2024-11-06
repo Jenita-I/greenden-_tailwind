@@ -1,0 +1,70 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 6fr 1fr;
+    }
+
+    .header {
+        background-color: aquamarine;
+        padding: 5px;
+    }
+
+    .middle {
+        background-color: grey;
+        padding: 5px;
+
+    }
+
+    .one {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        height: 200px;
+        
+        
+    }
+
+    .asite {
+
+        background-color: green;
+        color: white;
+        margin: 2px;
+
+    }
+
+    .article {
+
+        background-color: orangered;
+        
+        
+    }
+    .two{
+        display: grid;
+        grid-auto-columns: 1fr 2fr 1fr;
+    }
+    .photo{
+        background-color: orange;
+        height: 50px;
+    
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: aquamarine;
+        padding: 5px;
+    }
+</style>
+<div class="container">
+    <div class="header">header</div>
+    <div class="middle">
+        <div class="one"> <div class="asite">Aside</div>
+        <div class="article">Article
+            <div class="two">
+        <div class="photo">photo</div>
+        <div class="photo ">photo</div>
+        <div class="photo">photo</div>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="footer">footer</div>
+</div>
